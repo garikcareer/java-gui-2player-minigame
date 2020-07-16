@@ -1,4 +1,4 @@
 # miniGameMinesweeper
 Minesweeper Game
 
-Run Minesweeper.java
+Compile and run Minesweeper.java
