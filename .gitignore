@@ -1,0 +1,15 @@
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.iml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# IntelliJ
+/.idea/
