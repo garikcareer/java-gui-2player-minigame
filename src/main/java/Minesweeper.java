@@ -1,12 +1,3 @@
-/*
-Garik Arutyunyan, Ishwor Ghimire
-Danniel Kennedy
-Problem Solving II
-October 10, 2016
-Mini Game Project
-*/
-
-//Add libraries
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -20,7 +11,6 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
    
    //JFrame
    JFrame frame=new JFrame();
-   JFrame frame1=frame;
    
    //Count
    int count=0;
@@ -357,7 +347,7 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
       else if(ae.getSource()==aboutProgram)
       {
          //Show message about creators
-         JOptionPane.showMessageDialog(null,"Version 1.0\nAuthors: Garik Arutyunyan, Ishwor Ghimire\nDate created: 10/15/2016\n© Minesweeper | Google", "About Program" ,JOptionPane.INFORMATION_MESSAGE);
+         JOptionPane.showMessageDialog(null,"Version 1.0\nAuthors: Garik Arutyunyan, Ishwor Ghimire\nDate created: 10/15/2016\nï¿½ Minesweeper | Google", "About Program" ,JOptionPane.INFORMATION_MESSAGE);
       }
    }//end actionPerfromed
    
@@ -441,7 +431,7 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
       }
       
       //If it is game over then show who won(highest score) if the scores are tie then say tie
-      if(gameOver==true)
+      if(gameOver)
       {
          if(player1Score>player2Score)
          {
@@ -453,8 +443,7 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
             JOptionPane.showMessageDialog(null,playerName2+" Won!");
             player2Win.setVisible(true);
          }
-         else if(player2Score==player1Score)
-         {
+         else {
             JOptionPane.showMessageDialog(null,"Tie!");
          }
          
@@ -602,4 +591,4 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
          player2Panel.setBackground(Color.RED);
       }
    }
-}//end class Minesweeper
+}
