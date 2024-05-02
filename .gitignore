@@ -1,3 +1,13 @@
+### IntelliJ IDEA ###
+.idea/
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.iws
+*.iml
+*.ipr
+
 # Class Files #
 *.class
 
@@ -5,11 +15,3 @@
 *.jar
 *.war
 *.ear
-
-*.iml
-
-# Generated files
-.idea/**/contentModel.xml
-
-# IntelliJ
-/.idea/
