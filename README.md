@@ -10,7 +10,9 @@
 - [License](#license)
 
 ## Introduction
-CompanyCompass is a web application developed using Java with Spring Boot framework, offering a robust and scalable solution for managing company information. The frontend is built using Thymeleaf and Bootstrap, providing a responsive and user-friendly interface. CompanyCompass allows users to view, add for privileged users to edit, and delete company details, providing a centralized platform for easy access and management of company data.
+Welcome to our 2-player turn-based mini-game developed with Java and the SWING toolkit! 
+This is simple yet engaging game allows players to challenge each other in a grid-based environment where they'll 
+uncover boxes to earn points or face the risk of hitting a mine and losing the game.
 
 ## Features
 Java with Swing an action turn based game. 
