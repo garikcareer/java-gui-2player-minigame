@@ -36,6 +36,3 @@ For contributing or using the software please contact me to make a change.
 ## References
 * [Java](https://www.java.com/en/)
 * [Swing](https://docs.oracle.com/javase/tutorial/uiswing/)
-
-## License
-[MIT License](https://www.mit.edu/~amini/LICENSE.md)
