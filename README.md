@@ -7,7 +7,6 @@
 - [Usage](#usage)
 - [References](#references)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Welcome to our 2-player turn-based mini-game developed with Java and the SWING toolkit! 
